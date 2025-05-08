@@ -78,3 +78,77 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+/* Responsive Design */
+
+/* Small devices (phones, less than 600px) */
+@media (max-width: 599px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .drum {
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+  .set {
+    margin: 5% auto;
+  }
+}
+
+/* Medium devices (tablets, 600px to 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .drum {
+    font-size: 4rem;
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+  }
+
+  .set {
+    margin: 8% auto;
+  }
+}
+
+/* Large devices (desktops, 1025px to 1920px) */
+@media (min-width: 1025px) and (max-width: 1920px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .drum {
+    font-size: 5rem;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .set {
+    margin: 10% auto;
+  }
+}
+
+/* Extra-large devices (TVs, more than 1920px) */
+@media (min-width: 1921px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  .drum {
+    font-size: 6rem;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+  }
+
+  .set {
+    margin: 12% auto;
+  }
+}
